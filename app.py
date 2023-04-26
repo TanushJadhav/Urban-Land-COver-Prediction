@@ -53,7 +53,6 @@ def main():
     # display the front end aspect
     st.markdown(html_temp, unsafe_allow_html = True) 
     
-    print(\n)
     # following lines create boxes in which user can enter data required to make prediction 
     BrdIndx = st.number_input('Border Index')
     Area = st.number_input('Area') 
