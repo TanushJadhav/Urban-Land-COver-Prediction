@@ -47,6 +47,7 @@ def main():
     html_temp = """ 
     <div style ="background-color:#659fc2;padding:13px"> 
     <h1 style =font-family:Montserrat;color:0e1117;text-align:center;">URBAN LAND COVER</h1> 
+    <br>
     </div> 
     """
     
@@ -55,7 +56,7 @@ def main():
     
 
     # following lines create boxes in which user can enter data required to make prediction 
-    BrdIndx = st.number_input('\nBorder Index')
+    BrdIndx = st.number_input('Border Index')
     Area = st.number_input('Area') 
     Round = st.number_input("Round") 
     Bright = st.number_input("Bright")
