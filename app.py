@@ -59,7 +59,7 @@ def main():
         ''' % bin_str
         st.markdown(page_bg_img, unsafe_allow_html=True)
 
-    set_background("DSC06721.JPG")
+    set_background("img.JPG")
     # front end elements of the web page
     html_temp = """ 
     <div style ="background-color:green;padding:13px"> 
