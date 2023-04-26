@@ -54,7 +54,7 @@ def main():
     st.markdown(html_temp, unsafe_allow_html = True) 
     
     # following lines create boxes in which user can enter data required to make prediction 
-   
+    st.markdown()
     BrdIndx = st.number_input('Border Index')
     Area = st.number_input('Area') 
     Round = st.number_input("Round") 
