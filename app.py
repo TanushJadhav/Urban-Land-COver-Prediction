@@ -2,7 +2,7 @@
 import pickle
 import streamlit as st
 import base64
- 
+import scikit-learn
 # loading the trained model
 pickle_in = open('ulc_classifier.pkl', 'rb') 
 classifier = pickle.load(pickle_in)
