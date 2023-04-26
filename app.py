@@ -44,7 +44,7 @@ def prediction(BrdIndx, Area, Round, Bright, Compact, ShpIndx, Mean_G, Mean_R,Me
 def main():
     # front end elements of the web page
     html_temp = """ 
-    <div style ="background-color:green;padding:13px"> 
+    <div style ="background-color:659fc2;padding:13px"> 
     <h1 style ="color:yellow;text-align:center;">Urban Land Cover Prediction ML App</h1> 
     </div> 
     """
