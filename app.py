@@ -1,8 +1,8 @@
 
+
 import pickle
 import streamlit as st
 import base64
-import pandas as pd
 
 # loading the trained model
 pickle_in = open('ulc_classifier.pkl', 'rb') 
@@ -42,10 +42,11 @@ def prediction(BrdIndx, Area, Round, Bright, Compact, ShpIndx, Mean_G, Mean_R,Me
     
 # this is the main function in which we define our webpage  
 def main():
+ 
     # front end elements of the web page
     html_temp = """ 
-    <div style ="background-color:659fc2;padding:13px"> 
-    <h1 style ="color:black;text-align:center;">URBAN LAND COVER</h1> 
+    <div style ="background-color:#659fc2;padding:13px"> 
+    <h1 style =font-family:Montserrat;color:black;text-align:center;">URBAN LAND COVER</h1> 
     </div> 
     """
     
@@ -85,4 +86,3 @@ def main():
     
 if __name__=='__main__': 
     main()
-
