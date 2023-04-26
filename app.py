@@ -45,7 +45,7 @@ def main():
     # front end elements of the web page
     html_temp = """ 
     <div style ="background-color:659fc2;padding:13px"> 
-    <h1 style ="color:yellow;text-align:center;">Urban Land Cover Prediction ML App</h1> 
+    <h1 style ="color:black;text-align:center;">URBAN LAND COVER</h1> 
     </div> 
     """
     
