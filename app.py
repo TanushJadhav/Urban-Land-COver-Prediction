@@ -55,7 +55,7 @@ def main():
     
 
     # following lines create boxes in which user can enter data required to make prediction 
-    BrdIndx = st.number_input('Border Index')
+    BrdIndx = st.number_input('\nBorder Index')
     Area = st.number_input('Area') 
     Round = st.number_input("Round") 
     Bright = st.number_input("Bright")
