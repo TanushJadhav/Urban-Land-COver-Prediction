@@ -41,7 +41,7 @@ def prediction(BrdIndx, Area, Round, Bright, Compact, ShpIndx, Mean_G, Mean_R,Me
     
 # this is the main function in which we define our webpage  
 def main():
-
+'''
     def get_base64(bin_file):
         with open(bin_file, 'rb') as f:
             data = f.read()
@@ -60,6 +60,7 @@ def main():
         st.markdown(page_bg_img, unsafe_allow_html=True)
 
     set_background("img.JPG")
+    '''
     # front end elements of the web page
     html_temp = """ 
     <div style ="background-color:green;padding:13px"> 
