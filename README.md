@@ -1,1 +1,1 @@
-# Urban-Land-COver-Prediction
+# Urban-Land-Cover-Prediction
