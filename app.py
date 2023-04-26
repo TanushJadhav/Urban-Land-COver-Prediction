@@ -52,7 +52,10 @@ def main():
     # display the front end aspect
     st.markdown(html_temp, unsafe_allow_html = True) 
     
-
+    # displaying dataset
+    df = pd.read_csv('training.csv')
+    st.dataframe(df)
+    
     # following lines create boxes in which user can enter data required to make prediction 
     BrdIndx = st.number_input('Border Index')
     Area = st.number_input('Area') 
