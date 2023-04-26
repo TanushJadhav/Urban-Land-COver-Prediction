@@ -44,7 +44,7 @@ def main():
  
     # front end elements of the web page
     html_temp = """ 
-    <div style ="background-color:#66a2c2;padding:13px"> 
+    <div style ="background-color:#659fc2;padding:13px"> 
     <h1 style =font-family:Montserrat;color:black;text-align:center;">URBAN LAND COVER</h1> 
     </div> 
     """
