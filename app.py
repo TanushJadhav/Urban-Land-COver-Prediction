@@ -1,6 +1,7 @@
 
 import pickle
 import streamlit as st
+import sklearn
  
 # loading the trained model
 pickle_in = open('ulc_classifier.pkl', 'rb') 
