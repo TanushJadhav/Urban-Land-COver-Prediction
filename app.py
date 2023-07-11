@@ -1,9 +1,7 @@
-
-
 import pickle
 import streamlit as st
 import base64
-
+ 
 # loading the trained model
 pickle_in = open('ulc_classifier.pkl', 'rb') 
 classifier = pickle.load(pickle_in)
@@ -42,19 +40,19 @@ def prediction(BrdIndx, Area, Round, Bright, Compact, ShpIndx, Mean_G, Mean_R,Me
     
 # this is the main function in which we define our webpage  
 def main():
- 
+
     # front end elements of the web page
     html_temp = """ 
-    <div style ="background-color:#659fc2;padding:13px"> 
-    <h1 style =font-family:Montserrat;color:0e1117;text-align:center;">URBAN LAND COVER</h1> 
+    <div style ="background-color:green;padding:13px"> 
+    <h1 style ="color:yellow;text-align:center;">Urban Land Cover Prediction ML App</h1> 
     </div> 
     """
     
     # display the front end aspect
     st.markdown(html_temp, unsafe_allow_html = True) 
     
+
     # following lines create boxes in which user can enter data required to make prediction 
-    st.caption("")
     BrdIndx = st.number_input('Border Index')
     Area = st.number_input('Area') 
     Round = st.number_input("Round") 
